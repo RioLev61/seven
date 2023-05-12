@@ -11,11 +11,11 @@ const navLinks = [
   },
   {
     path: "/about",
-    display: "About",
+    display: "Nosotros",
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Autos",
   },
 
   {
@@ -24,7 +24,7 @@ const navLinks = [
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contacto",
   },
 ];
 

@@ -7,7 +7,7 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "Nosotros",
   },
 
   {
@@ -17,7 +17,7 @@ const quickLinks = [
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Autos",
   },
   {
     path: "/blogs",
@@ -26,7 +26,7 @@ const quickLinks = [
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contacto",
   },
 ];
 
@@ -56,7 +56,7 @@ const Footer = () => {
             </p>
           </Col>
 
-          <Col lg="4" md="4" sm="6">
+          <Col lg="4" md="4" sm="8">
             <div className="mb-4">
               <h5 className="footer__link-title">Menu</h5>
               <ListGroup>
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="3" md="4" sm="6">
+          <Col lg="4" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Encontranos en</h5>
               <p className="office__info">Av.Cordoba 234, CABA</p>
